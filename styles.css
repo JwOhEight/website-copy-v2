@@ -1,3 +1,59 @@
 * {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #3882f6;
     
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-top, .header-main {
+
+}
+
+.header-top li a {
+    color: #e5e7eb;
+}
+.header-info h1 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.header-info p {
+    color: #e5e7eb;
+}
+
+.main-info h2 {
+    font-size: 36px;
+    font-weight: 800
+}
+
+.main-quote {
+    background-color: #E5E7EB;
+}
+
+.main-quote .quote-source {
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+
+.main-action .action-card {
+    background-color: #3882f6;
+    color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
 }
