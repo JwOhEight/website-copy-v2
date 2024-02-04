@@ -16,6 +16,9 @@
 ul {
     color: #E5E7EB;
     size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 /* Hero */
 h1 {
