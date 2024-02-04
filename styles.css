@@ -21,7 +21,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 li {
@@ -31,6 +31,7 @@ li {
 
 #hero {
     background-color: #1f2937;
+    padding: 20px 200px;
 }
 
 h1 {
@@ -43,8 +44,6 @@ p {
     color: #E5E7EB;
     size: 18px;
 }
-
-
 
 .hero-button {
     background-color: #3882F6;
