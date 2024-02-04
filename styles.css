@@ -7,6 +7,7 @@
 /* Header */
 #header {
     background-color: #1f2937;
+    padding: 20px 200px;
 }
 
 .header-logo {
@@ -20,8 +21,18 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 10px;
 }
 /* Hero */
+
+#hero {
+    background-color: #1f2937;
+}
+
 h1 {
     color: #F9FAF8;
     size: 48px;
@@ -33,9 +44,7 @@ p {
     size: 18px;
 }
 
-.hero {
-    background-color: #1f2937;
-}
+
 
 .hero-button {
     background-color: #3882F6;
