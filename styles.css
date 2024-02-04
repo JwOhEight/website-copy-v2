@@ -55,6 +55,11 @@ p {
     margin-top: 10px;
 }
 
+.header-img {
+    background-color: #e5e7eb;
+}
+
+
 /* Information */
 h2 {
     color: #1f2937;
