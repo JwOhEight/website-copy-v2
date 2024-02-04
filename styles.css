@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 /* Header */
+header {
+    background-color: #1f2937;
+}
+
 .header-logo {
     color: #F9FAF8;
     size: 24px;
