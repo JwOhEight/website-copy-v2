@@ -5,9 +5,8 @@
     padding: 0;
 }
 /* Header */
-header {
+#header {
     background-color: #1f2937;
-    
 }
 
 .header-logo {
