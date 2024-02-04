@@ -1,3 +1,54 @@
 * {
     
 }
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Header */
+.header-logo {
+    color: #F9FAF8;
+    size: 24px;
+}
+/* Hero */
+h1 {
+    color: #F9FAF8;
+    size: 48px;
+    font-weight: 800;
+}
+
+p {
+    color: #E5E7EB;
+    size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero-button {
+    background-color: #3882F6;
+}
+
+/* Information */
+h2 {
+    color: #1f2937;
+    size: 36px;
+    font-weight: 800;
+}
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    size: 36px;
+}
+/* Call-To-Action */
+.cta {
+    background-color: #3882F6;
+}
