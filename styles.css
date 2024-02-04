@@ -1,15 +1,19 @@
 * {
-    
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    
 }
 /* Header */
 header {
     background-color: #1f2937;
+    
 }
 
 .header-logo {
@@ -19,7 +23,6 @@ header {
 ul {
     color: #E5E7EB;
     size: 18px;
-    list-style: none;
 }
 /* Hero */
 h1 {
