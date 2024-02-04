@@ -15,6 +15,7 @@ body {
 ul {
     color: #E5E7EB;
     size: 18px;
+    list-style: none;
 }
 /* Hero */
 h1 {
