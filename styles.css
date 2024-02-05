@@ -112,19 +112,29 @@ header {
     font-weight: 300;
 }
 
-.main-action {
-    
-}
-
 .main-quote .quote-source {
     font-size: 24px;
     font-weight: 800;
     text-align: right;
 }
 
+.main-action {
+    margin: 80px;
+}
+
 .main-action .action-card {
+    width: 600px;
+    margin: 0 auto;
     background-color: #3882f6;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
     color: white;
+}
+
+.action-card button {
+    border: 2px solid white;
 }
 
 footer {
