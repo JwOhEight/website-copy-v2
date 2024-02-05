@@ -10,10 +10,10 @@
     <title>Website Copy V2</title>
 </head>
 <body>
-    <header>    <!-- creates designated header section -->
+    <header>     <!-- creates designated header section -->
         <div class="header-top">    <!-- creates section for header logo and header links -->
             <h1 class="header-logo">Header Logo</h1>
-            <nav>   <!-- creates designated navigation section at top of header -->
+            <nav>     <!-- creates designated navigation section at top of header -->
                 <ul>
                     <li><a href="#">header link one</a></li>
                     <li><a href="#">header link two</a></li>
@@ -21,23 +21,23 @@
                 </ul>
             </nav>
         </div>
-        <div class="header-main">   <!-- creates main section with hero and image -->
+        <div class="header-main">     <!-- creates main section with hero and image -->
             <div class ="header-info">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                 <button>Sign up</button>
             </div>
-            <div class="header-img">
+            <div class="header-img">     <!-- creates div in header-main to work with header-main flexbox -->
                 <img src="/home/jw08/Downloads/Images/Misc Images/placeholder-landscape.png" alt="placeholder" class="hero-img">
             </div>
         </div>
-    </header>
-    <main>
-        <section class="main-info">
+    </header>     <!-- closes designated header section-->
+    <main>     <!-- creates designated main section -->
+        <section class="main-info">     <!-- creates designated section for the info section -->
             <h2>Some random information.</h2>
-            <div class="cards-container">
-                <div>
-                    <div></div>
+            <div class="cards-container">     <!-- creates section for all 4 cards -->
+                <div>     <!-- creates the flex division that contains the card and the paragraph -->
+                    <div></div>     <!-- creates square border above paragraph-->
                     <p>this is some subtext under and illustration or image</p>
                 </div>
                 <div>
@@ -54,26 +54,26 @@
                 </div>
             </div>
         </section>
-        <section class="main-quote">
-            <p class="quote-text">
-                <em>
+        <section class="main-quote">     <!-- creates designated section for the quote -->
+            <p class="quote-text">     <!-- creates paragraph section to select both quote-text AND quote-source -->  
+                <em>     <!-- creates paragraph section to select quote-text by itself -->
                     This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
                 </em>
-                <p class="quote-source">- Thor, God of Thunder</p>
+                <p class="quote-source">- Thor, God of Thunder</p>     <!-- creates paragraph section to select quote-source by itself -->
             </p>
         </section>
-        <section class="main-action">
-            <div class="action-card">
-                <div class="action-info">
+        <section class="main-action">     <!-- creates designated main-action section -->
+            <div class="action-card">     <!-- creates div to work with Flexbox and contain the h3, p, and button -->
+                <div class="action-info">     <!-- creates div to flex only the h3 and p -->
                     <h3>Call to action! It's time!</h3>
                     <p>Sign up for our product by clicking that button right over there!</p>
                 </div>
                 <button>Sign up</button>
             </div>
         </section>
-    </main>
-    <footer>
-        <p>Copyright &copy; The Odin Project 2021</p>
+    </main>     <!-- closes main section -->
+    <footer>     <!-- creates designated footer section -->
+        <p>Copyright &copy; The Odin Project 2021</p>     <!-- &copy; creates copyright symbol -->
     </footer>
 </body>
 </html>
