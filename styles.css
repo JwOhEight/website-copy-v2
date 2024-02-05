@@ -107,13 +107,15 @@ header {
 
 .main-quote {
     background-color: #E5E7EB;
-
+    padding: 100px 400px;
+    font-size: 36px;
+    font-weight: 300;
 }
 
 .main-quote .quote-source {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 800;
-    
+    text-align: right;
 }
 
 .main-action .action-card {
