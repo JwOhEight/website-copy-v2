@@ -66,7 +66,7 @@ header {
     color: #e5e7eb;
 }
 
-.header-main .header-img img {  /* selects img in hero */
+.header-main .header-img img {  /* selects img in .header-img div in header-main div */
     background-color: #E5E7EB;
 }
 
