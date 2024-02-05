@@ -51,7 +51,10 @@ header {
 }
 
 .header-info {
-    margin-right: 50px;
+    margin-right: 56px;
+    margin-left: 285px;
+    text-wrap: pretty;
+
 }
 
 .header-info h1 {
