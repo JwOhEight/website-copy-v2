@@ -11,8 +11,8 @@ button {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
-    padding: 5px 20px;
-    margin-top: 10px;
+    padding: 5px 20px;  /* adds space between button text and button border */
+    margin-top: 10px;   /* adds margin to top of button */
 }
 
 button:hover {
@@ -26,21 +26,21 @@ header {
     padding: 20px 200px;
 }
 
-.header-top, .header-main { 
-    display: flex;
-    margin-bottom: 200px;
+.header-top, .header-main { /* selects second section of header */
+    display: flex;  
+    margin-bottom: 200px;   /* creates space between bottom of image and info section */
     justify-content: space-between;
 }
 
-.header-top ul {
+.header-top ul {    /* adds Flexbox to header links */
     display: flex;
 }
 
-.header-top li {
+.header-top li {    /* adds space between individual links */
     margin-left: 20px;
 }
 
-.header-top li a {
+.header-top li a {  /* selects anchor elements */
     color: #e5e7eb;
     text-decoration: none;
 }
@@ -50,16 +50,15 @@ header {
     color: #3882f6;
 }
 
-.header-info {
+.header-info {  /* selects hero text and button */
     margin-right: 56px;
     margin-left: 285px;
     text-wrap: pretty;
-
 }
 
-.header-info h1 {
+.header-info h1 {   
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 5px; /* adds space between h1 and p */
     font-size: 48px;
 }
 
@@ -67,30 +66,30 @@ header {
     color: #e5e7eb;
 }
 
-.header-main .header-img img {
+.header-main .header-img img {  /* selects img in hero */
     background-color: #E5E7EB;
 }
 
-.main-info {
-    padding: 0 80px 80px;
+.main-info {    
+    padding: 0 80px 80px; /* 0 (removes extra space above h2) 80px 80px (adds between info, quote, and sides) */
 }
 
-.main-info h2 {
+.main-info h2 { /* selects header for info */
     font-size: 36px;
     font-weight: 800;
-    margin: 40px auto;
+    margin: 40px auto;  /* adds space to top and bottom of header */
     text-align: center;
 }
 
-.main-info .cards-container {
+.main-info .cards-container {   /* selects card container */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
-    margin: 0 auto;
+    width: 1000px;  /* sets width of container */
+    margin: 0 auto; /* centers container */
 }
 
-.main-info .cards-container div {
+.main-info .cards-container div {   /* selects text within card container */
     width: 200px;
     text-align: center;
     font-size: 18px;
@@ -100,17 +99,17 @@ header {
     align-items: center;
 }
 
-.main-info .cards-container div div {
+.main-info .cards-container div div {   /* selects cards within card container */
     width: 200px;
     height: 200px;
     border: 5px solid #3882f6;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    /* adds space between card and text below */
 }
 
 .main-quote {
     background-color: #E5E7EB;
-    padding: 100px 400px;
+    padding: 100px 400px;   /* adds space between text and everything else */
     font-size: 36px;
     font-weight: 300;
 }
@@ -118,25 +117,25 @@ header {
 .main-quote .quote-source {
     font-size: 24px;
     font-weight: 800;
-    text-align: right;
+    text-align: right;  /* aligns quote source to right of main quote */
 }
 
-.main-action {
-    margin: 80px;
+.main-action {  /* selects action card section */
+    margin: 80px;   /* adds space between footer and quote section */
 }
 
 .main-action .action-card {
-    width: 600px;
-    margin: 0 auto;
+    width: 600px;   /* sets width for actual action card */
+    margin: 0 auto; /* centers action card */
     background-color: #3882f6;
-    padding: 40px 80px;
+    padding: 40px 80px; /* makes background of action card larger */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* adds space between action text and action button */
     border-radius: 7px;
     color: white;
 }
 
-.action-card button {
+.action-card button {   /* selects the button in the action section */
     border: 2px solid white;
 }
 
