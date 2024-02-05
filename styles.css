@@ -9,24 +9,63 @@ button {
     color: white;
     font-weight: bold;
     background-color: #3882f6;
-    
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: hsl(217, 91%, 40%);
+    cursor: pointer;
 }
 
 header {
     background-color: #1f2937;
     color: white;
+    padding: 20px 200px;
+}
+
+.header-top, .header-main {
+    display: flex;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+
+.header-top ul {
+    display: flex;
+}
+
+.header-top li {
+    margin-left: 20px;
 }
 
 .header-top li a {
     color: #e5e7eb;
+    text-decoration: none;
 }
+
+.header-top li a:hover {
+    text-decoration: underline;
+    color: #3882f6;
+}
+
+.header-info {
+    margin-right: 50px;
+}
+
 .header-info h1 {
     font-weight: 800;
+    margin-bottom: 5px;
     font-size: 48px;
 }
 
 .header-info p {
     color: #e5e7eb;
+}
+
+.header-main .header-img img {
+    background-color: #E5E7EB;
 }
 
 .main-info h2 {
